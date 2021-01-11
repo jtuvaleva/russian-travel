@@ -1,0 +1,11 @@
+.places__text-area {
+  margin: 0;
+  align-self: start;
+}
+
+@media (max-width: 320px) {
+  .places__text-area {
+    margin: 0 auto;
+    width: 288px;
+  }
+}

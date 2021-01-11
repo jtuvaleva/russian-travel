@@ -1,0 +1,4 @@
+.text-break-line {
+  content: "\A";
+  white-space: pre;
+}

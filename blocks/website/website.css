@@ -1,0 +1,13 @@
+.website {
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: end;
+}
+
+@media (max-width: 320px) {
+  .website {
+    display: none;
+  }
+}

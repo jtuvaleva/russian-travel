@@ -1,0 +1,25 @@
+.lead {
+  width: calc(100% - 96px);
+  margin: 0 auto;
+}
+
+
+@media (max-width: 320px) {
+  .lead {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 1023px){
+  .lead {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px){
+  .lead {
+    width: 984px;
+    padding-top: 56px;
+  }
+}

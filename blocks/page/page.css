@@ -6,7 +6,6 @@
   width: 100%;
   min-width: 320px;
   max-width: 1280px;
-  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

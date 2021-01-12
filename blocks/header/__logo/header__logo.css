@@ -4,7 +4,7 @@
   background-size: contain;
   position: relative;
   width: 176px;
-  height: 52px;
+  min-height: 52px;
 }
 
 @media (max-width: 320px) {

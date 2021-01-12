@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  overflow: hidden;
 }
 
 @media (min-width: 1280px){

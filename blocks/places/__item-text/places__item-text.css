@@ -5,18 +5,18 @@
   line-height: 163%;
 }
 
+.places__item-text:first-child {
+  padding-bottom: 25px;
+}
+
+.places__item-text:last-child {
+  padding-bottom: 0;
+}
+
 @media (max-width: 320px) {
   .places__item-text {
     font-size: 16px;
     line-height: 163%;
-  }
-
-  .places__item-text:first-child {
-    padding-bottom: 25px;
-  }
-
-  .places__item-text:last-child {
-    padding-bottom: 0;
   }
 }
 

@@ -1,5 +1,6 @@
 .intro__items {
-  width: 690px;
+  max-width: 690px;
+  width: 100%;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -10,7 +11,7 @@
   padding-top: 33px;
 }
 
-@media (max-width: 320px) {
+@media all and (max-width: 767px) {
   .intro__items {
     width: 100%;
     padding-top: 34px;

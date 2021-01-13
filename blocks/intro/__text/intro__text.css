@@ -1,5 +1,5 @@
 .intro__text {
-  width: 690px;
+  max-width: 690px;
   font-weight: normal;
   font-size: 16px;
   line-height: 163%;
@@ -7,12 +7,9 @@
   padding-top: 40px;
 }
 
-@media (max-width: 320px) {
+@media all and (max-width: 767px) {
   .intro__text {
-    width: 288px;
+    width: 100%;
     padding-top: 40px;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 163%;
   }
 }

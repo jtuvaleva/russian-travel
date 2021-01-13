@@ -3,9 +3,9 @@
   align-self: start;
 }
 
-@media (max-width: 320px) {
+@media all and (max-width: 767px) {
   .places__text-area {
     margin: 0 auto;
-    width: 288px;
+    width: 90%;
   }
 }

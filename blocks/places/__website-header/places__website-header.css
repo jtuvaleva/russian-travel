@@ -1,9 +1,10 @@
-.website__header {
-  position: relative;
+.places__website-header {
   font-weight: normal;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 0.2em;
   color: #aaaaaa;
   margin: 0;
+  text-transform: uppercase;
+  padding-bottom: 12px;
 }

@@ -1,17 +1,37 @@
 .cover__subtitle {
-  width: 360px;
+  width: 100%;
+  max-width: 360px;
   padding-top: 32px;
+  padding-bottom: 19%;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+  position: relative;
+  display: flex;
+  z-index: 3;
 }
 
-@media (max-width: 320px) {
+@media all and (max-width: 767px) {
   .cover__subtitle {
-    width: 288px;
+    max-width: 288px;
     padding-top: 16px;
+    padding-bottom: 10.3%;
     font-size: 14px;
     line-height: 16px;
   }
 }
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cover__subtitle {
+    padding-bottom: 15%;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .cover__subtitle {
+    padding-bottom: 20.69%;
+  }
+}
+

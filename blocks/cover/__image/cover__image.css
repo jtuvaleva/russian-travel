@@ -1,14 +1,23 @@
 .cover__image {
   width: 100%;
-  min-height: 62.5vw;
-  max-height: 740px;
-  background: url(../../../images/cover-background.jpg) rgba(42, 44, 47, 0.3);
+  background: url(../../../images/cover-background.jpg);
   background-size: cover;
-  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
-.cover__image:hover {
-  background: url(../../../images/cover-background.jpg) rgba(42, 44, 47, 0.8);
-  background-size: cover;
-  background-blend-mode: overlay;
+
+.cover__image::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #2A2C2F;;
+  opacity: 0.3;
+  z-index: 1;
 }
+.cover__image:hover::before{
+  opacity: 0.8;
+}
+

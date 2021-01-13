@@ -1,13 +1,13 @@
-.website {
-  height: 46px;
+.places__website {
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-self: end;
 }
 
-@media (max-width: 320px) {
-  .website {
+@media (max-width: 767px) {
+  .places__website {
     display: none;
   }
 }

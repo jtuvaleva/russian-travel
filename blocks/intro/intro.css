@@ -1,6 +1,6 @@
 .intro {
   margin: 0 auto;
-  width: calc(100% - 96px);
+  max-width: calc(100% - 96px);
   padding-top: 92px;
 }
 

@@ -1,14 +1,13 @@
-.header__lang_link_inactive {
+.lang-list__item_link_active {
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
-  text-decoration-line: none;
   color: #ffffff;
+  text-decoration-line: underline;
 }
-
-
+  
 @media all and (max-width: 767px) {
-  .header__lang_link_inactive {
+  .lang-list__item_link_active {
     font-size: 18px;
     line-height: 20px;
   }

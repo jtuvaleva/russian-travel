@@ -6,10 +6,10 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang/header__lang.css);
-@import url(../blocks/lang-list/lang-list.css);
-@import url(../blocks/lang-list/__item/lang-list__item.css);
-@import url(../blocks/lang-list/__item/_link/lang-list__item_link_inactive.css);
-@import url(../blocks/lang-list/__item/_link/lang-list__item_link_active.css);
+
+@import url(../blocks/header/__lang-list/header__lang-list.css);
+@import url(../blocks/header/__lang-item/header__lang-item.css);
+@import url(../blocks/header/__lang-item/_link/header__lang-item_link_active.css);
 
 /*Lead*/
 @import url(../blocks/lead/lead.css);
